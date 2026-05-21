@@ -1,0 +1,10 @@
+{
+  "name": "hello-custom",
+  "displayName": "Hello Custom",
+  "version": "1.0.0",
+  "description": "Mock plugin that declares a custom path for its skills.",
+  "author": {
+    "name": "Copilot Marketplace Playground"
+  },
+  "skills": "./custom-skills"
+}
