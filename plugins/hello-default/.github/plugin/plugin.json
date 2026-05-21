@@ -1,0 +1,9 @@
+{
+  "name": "hello-default",
+  "displayName": "Hello Default",
+  "version": "1.0.0",
+  "description": "Mock plugin that relies on the default skills folder layout.",
+  "author": {
+    "name": "Copilot Marketplace Playground"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "copilot-marketplace-playground",
+  "owner": {
+    "name": "Copilot Marketplace Playground",
+    "email": "devnull@example.com"
+  },
+  "description": "Mock Copilot plugin marketplace scaffold with local and external plugins.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "hello-default",
+      "source": "./plugins/hello-default",
+      "description": "Mock plugin using the default skills folder layout.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Copilot Marketplace Playground"
+      }
+    },
+    {
+      "name": "hello-custom",
+      "source": "./plugins/hello-custom",
+      "description": "Mock plugin using a custom skills folder path.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Copilot Marketplace Playground"
+      }
+    },
+    {
+      "name": "awesome-copilot",
+      "source": {
+        "source": "github",
+        "repo": "github/awesome-copilot",
+        "sha": "320bb9558fac4cf9c7c07e03fcdd21fda5041c96",
+        "path": "plugins/awesome-copilot"
+      },
+      "description": "External plugin pinned to github/awesome-copilot.",
+      "author": {
+        "name": "GitHub"
+      }
+    }
+  ]
+}
