@@ -5,4 +5,4 @@ description: Respond with a friendly hello world greeting from the custom skills
 
 When invoked, respond with:
 
-`Hello world from the hello-custom plugin!`
+`Hello world from the hello-external plugin!`

@@ -1,6 +1,6 @@
 {
-  "name": "hello-custom",
-  "displayName": "Hello Custom",
+  "name": "hello-external",
+  "displayName": "Hello External",
   "version": "1.0.0",
   "description": "Mock plugin that declares a custom path for its skills.",
   "author": {

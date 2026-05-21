@@ -5,7 +5,7 @@
     "email": "devnull@example.com"
   },
   "description": "Mock Copilot plugin marketplace scaffold with local and external plugins.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "plugins": [
     {
       "name": "hello-default",
@@ -37,6 +37,20 @@
       "author": {
         "name": "GitHub"
       }
+    },
+    {
+      "name": "external-plugin",
+      "source": {
+        "source": "github",
+        "repo": "aaronpowell/copilot-marketplace-playground",
+        "sha": "fa4610f05ae6ff496a316053b1543b588051b92f",
+        "path": "external-plugin/hello-external"
+      },
+      "description": "External plugin pinned to aaronpowell/copilot-marketplace-playground.",
+      "author": {
+        "name": "aaronpowell"
+      },
+      "version": "1.0.0"
     }
   ]
 }
